@@ -6,7 +6,10 @@ seconds = 5
 
 print("Speak now...")
 
-recording = sd.rec(int(seconds * fs), samplerate=fs, channels=1)
+recording = sd.rec(int(seconds * fs),
+                   samplerate=fs,
+                   channels=1,
+                   device=None)
 
 sd.wait()
 
