@@ -7,6 +7,7 @@ seconds = 5
 print("Speak now...")
 
 recording = sd.rec(int(seconds * fs), samplerate=fs, channels=1)
+
 sd.wait()
 
 write("input.wav", fs, recording)
