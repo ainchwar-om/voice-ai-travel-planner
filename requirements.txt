@@ -1,0 +1,8 @@
+openai-whisper
+gtts
+sounddevice
+scipy
+langchain
+chromadb
+fastapi
+uvicorn
